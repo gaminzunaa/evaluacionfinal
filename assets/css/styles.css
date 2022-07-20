@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: #666;
+  }
+
+  
+  #xd1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    padding: 55px;
+    gap: 5px;
+  }
+  
+  .nota {
+    height: 100px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 19px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px lavenderblush;
+    resize: none;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  .xddd {
+    height: 100px;
+    border: none;
+    outline: none;
+    background: beige;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+    cursor: progress;
+    transition: background 0.9s;
+  }
+  
+  .xddd:hover {
+    background: burlywood;
+  }
+  
